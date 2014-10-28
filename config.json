@@ -1,5 +1,5 @@
-!path C:\Users\Mendrik\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
-!path J:\Developement\workspace\muscle\target\muscle-1.0.0-SNAPSHOT.jar
+!path ...\commons-io-1.3.2.jar
+!path ...\muscle-1.0.0-SNAPSHOT.jar
 
 |de.seeberpa.fitensions.muscle.MySuperAdapter|!-FitNesseRoot\ConFigs\SentenceS\content.txt-!|
 |Kaufe ein bei Haendler [SubMan] im Shop [CreditcardShop]                                   |
