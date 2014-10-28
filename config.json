@@ -1,0 +1,28 @@
+!path C:\Users\Mendrik\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+!path J:\Developement\workspace\muscle\target\muscle-1.0.0-SNAPSHOT.jar
+
+|de.seeberpa.fitensions.muscle.MySuperAdapter|!-FitNesseRoot\ConFigs\SentenceS\content.txt-!|
+|Kaufe ein bei Haendler [SubMan] im Shop [CreditcardShop]                                   |
+|Lege [2] [Schuhe] fuer je [9,99] [EUR] in den Warenkorb                                    |
+|Lege [1] [Pullover] fuer je [12,95] [EUR] in den Warenkorb                                 |
+|Bestelle und wähle [Kreditkarte VISA] als Zahlart                                          |
+|Gib Kreditkarteninformationen ein:                                                         |
+|...                                                                                        |
+|...                                                                                        |
+|1                                                                                          |
+|Schließe den Kauf ab.                                                                      |
+
+[ConFigs.SentenceS]
+
+[
+ {
+  "type":"SentenceConfig",
+  "sentence":"Kaufe ein bei Haendler [?] im Shop [?]",
+  "params":["merchantName","shopName"]		
+ },
+ {
+  "type":"SentenceConfig",
+  "sentence":"Lege [?] [?] fuer je [?] [?] in den Warenkorb",
+  "params":["number","itemName","amount","currency"]		
+ }
+] 
